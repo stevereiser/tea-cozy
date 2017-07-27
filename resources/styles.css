@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    margin-top: 0;
+
+}
+.main-content{
+    padding-top: 69px;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+/*--- header ---*/
+
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid white;
+    background-color: black;
+    padding: 0 10px;    
+}
+
+header .logo{
+    height: 50px;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+nav span{
+    padding: 5px;
+}
+
+a{
+    color: seashell;
+    text-decoration: underline;
+}
+
+/*--- mission section ---*/
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img-mission-background.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1200px;
+
+}
+
+.mission-text{
+    background-color: black;
+    width: 100%;
+}
+
+/*--- tea of the month ---*/
+
+.tea-of-month{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.teas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+
+}
+.tea-image-text{
+    width: 300px;
+}
+.teas img{
+    width: 100%;
+    height: 200px;
+
+}
+
+/*--- locations ---*/
+
+.locations{
+    background-image: url(img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.three-locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.locations h2{
+    margin: 15px;
+}
+
+.addresses{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+}
+
+#oakdale{
+    margin-right: 0px;
+}
