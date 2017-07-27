@@ -109,7 +109,7 @@ a{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 50px
+    margin: 50px 0 10px 0;
 }
 
 .three-locations{
@@ -139,5 +139,14 @@ a{
 
 .copywright{
     text-align: left;
-    margin-left: 20px;
+    margin: 80px 0 0 20px;
+}
+
+/*--- anchor adjustment ---*/
+
+.anchor{
+  display: block;
+  height: 69px; /*same height as header*/
+  margin-top: -69px; /*same height as header*/
+  visibility: hidden;
 }
